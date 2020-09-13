@@ -1,8 +1,8 @@
 import back.Game;
 import front.App;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JFrame;
+import java.awt.Dimension;
 
 public class Main {
 

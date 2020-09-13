@@ -4,7 +4,10 @@ import back.FoodNode;
 import back.Game;
 import lombok.Getter;
 
-import javax.swing.*;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
 import java.text.MessageFormat;
 
 import static javax.swing.JOptionPane.INFORMATION_MESSAGE;
@@ -22,7 +25,6 @@ public class App {
     private JButton btnStart;
     private JPanel welcomeScreen;
     private JLabel lblWelcome;
-
 
     private FoodNode previousFoodNode;
 
